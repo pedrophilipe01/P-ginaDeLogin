@@ -7,6 +7,7 @@
     <title>Página de Login</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -14,36 +15,36 @@
         <form action="">
             <h1>Login</h1>
             <div class="caixa-input">
-                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="Nome" required>
                 <i class='bx bx-user'></i>
             </div>
 
             <form action="">
                 <div class="caixa-input">
-                    <input type="email" placeholder="E-mail">
+                    <input type="email" placeholder="E-mail" required>
                     <i class='bx bx-envelope'></i>
                 </div>
 
                 <form action="">
                     <div class="caixa-input">
-                        <input type="password" placeholder="Senha">
+                        <input type="password" placeholder="Senha" required>
                         <i class='bx bx-low-vision'></i>
                     </div>
 
                     <div class="esqueceu-senha">
-                        <label><input type="checkbox">Lembrar de mim</label><a href="#">Esqueceu a senha?</a>
+                        <label><input class="checkbox" type="checkbox" required>Lembrar de mim</label><a href="EsqueceuAsenha.html" target="_blank">Esqueceu a senha?</a>
                     </div>
 
                     <button type="submit" class="btn">Entrar</button>
 
                     <div class="criar-conta">
-                        <p>Não tem conta?<a href="#">Clique aqui e se registre</a></p>
+                        <p>Não tem conta?<a href="SeRegistrar.html" target="_blank">Clique aqui e se registre</a></p>
                     </div>
                 </form>
     </div>
 </body>
 <footer class="rodapé">
-     <p>Desenvolvido por <a href="">Pedro Philipe</a></p>
+     <p>Desenvolvido por <a href="https://www.linkedin.com/in/pedrophilipetec/" target="_blank">Pedro Philipe</a></p>
 </footer>
 </html>
 
